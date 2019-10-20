@@ -26,12 +26,11 @@ public class FoodMenuActions extends BaseAction {
 		}
 	}
 	
-	public void chooseItem(String category, String product) {
-		String x = String.format(objCategory, category);
-		findElement(parentDriver,By.xpath(x)).click();
-		String y = String.format(objProduct, product);
-		findElement(parentDriver,By.xpath(y)).click();
-		report.nodeTestPass("Choose Item");
+	public void chooseItem(String category, String product) throws InterruptedException {
+		findElement(parentDriver,By.xpath(String.format(objCategory, category))).click();
+		findElement(parentDriver,By.xpath(String.format(objProduct, product))).click();
+		Thread.sleep(5000);
+		report.nodeTestPass("Add Item To Cart");
 	}
 	
 	public void provideAddress(String address) {

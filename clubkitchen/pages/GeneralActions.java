@@ -27,19 +27,24 @@ public class GeneralActions extends BaseAction {
 
 	public void performLogin(String url, String email, String password) throws InterruptedException {
 		parentDriver.get(url);
+		Thread.sleep(3000);
+		if(findElement(parentDriver, By.xpath(objAcceptCookieButton)).isDisplayed())
+		{
+			findElement(parentDriver, By.xpath(objAcceptCookieButton)).click();
+		}
 		findElement(parentDriver, By.xpath(objLoginLink)).click();
-		findElement(parentDriver, By.xpath(objAcceptCookieButton)).click();
 		findElement(parentDriver, By.xpath(objEmail)).sendKeys(email);
 		findElement(parentDriver, By.xpath(objPassword)).sendKeys(password);
 		findElement(parentDriver, By.xpath(objLogin)).click();
 		Thread.sleep(3000);
+		
+		report.nodeTestPass("Login");
 	}
 
 	public void performLogout() throws InterruptedException {
 		findElement(parentDriver, By.xpath(objMyAccount)).click();
 		findElement(parentDriver, By.xpath(objMyAccountSignOut)).click();
-		
-		Thread.sleep(3000);
+		report.nodeTestPass("Logout");
 	}
 	
 	//Access Profile Menu / Account-Menu Drop-Down
