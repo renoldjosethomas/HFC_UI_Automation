@@ -1,0 +1,21 @@
+2019-10-20 16:15:43,479 [main] INFO clubkitchen.utils.LogUtility -   SPRINT:  CS 2.7 S1
+2019-10-20 16:15:43,485 [main] INFO clubkitchen.utils.LogUtility -   TITLE:  Regression Test Suite
+2019-10-20 16:15:43,485 [main] INFO clubkitchen.utils.LogUtility -   MODULE:  Club Kitchen General
+2019-10-20 16:15:43,486 [main] INFO clubkitchen.utils.LogUtility -   ASSIGNEE:  Renold Jose Thomas
+2019-10-20 16:15:43,488 [main] INFO clubkitchen.utils.LogUtility -   DATE:  22-NOV-19
+2019-10-20 16:15:43,488 [main] INFO clubkitchen.utils.LogUtility -   LINKED TO TESTSUITE ID:  TEST SUITE HFC - 01
+2019-10-20 16:15:43,489 [main] INFO clubkitchen.utils.LogUtility -   ENVIRONMENT:  QA Environment
+2019-10-20 16:16:01,067 [main] INFO clubkitchen.utils.LogUtility - Executing Test -  TC001 - Verify add an item to cart workflow
+2019-10-20 16:16:17,648 [main] INFO clubkitchen.utils.LogUtility - Action - Navigate to Food Menu Page
+2019-10-20 16:16:21,374 [main] INFO clubkitchen.utils.LogUtility - Action - Provide Address in the Address Pop-Up Modal
+2019-10-20 16:16:23,179 [main] ERROR clubkitchen.utils.LogUtility - FAILED:  TC001 - Verify add an item to cart workflow   -   null
+2019-10-20 16:17:03,862 [main] INFO clubkitchen.utils.LogUtility - Executing Test -  TC002 - Verify adding a wrong item to cart workflow
+2019-10-20 16:17:05,662 [main] ERROR clubkitchen.utils.LogUtility - FAILED:  TC002 - Verify adding a wrong item to cart workflow   -   element not interactable
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LAP-1004', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\renold\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62540}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.108, webStorageEnabled: true}
+Session ID: e43f1808579f2cdbce6a0666bce8dfea
