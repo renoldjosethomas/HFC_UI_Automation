@@ -27,16 +27,19 @@ public class FoodMenuActions extends BaseAction {
 	}
 	
 	public void chooseItem(String category, String product) throws InterruptedException {
+		Thread.sleep(3000);
 		findElement(parentDriver,By.xpath(String.format(objCategory, category))).click();
 		findElement(parentDriver,By.xpath(String.format(objProduct, product))).click();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		report.nodeTestPass("Add Item To Cart");
 	}
 	
 	public void provideAddress(String address) {
-		findElement(parentDriver,By.xpath(objAddressPopupInput)).sendKeys(address);
-		findElement(parentDriver,By.xpath(objAddressToMenuButton)).click();
-		report.nodeTestPass("Provide Address in the Address Pop-Up Modal");
+		if(findElement(parentDriver,By.xpath(objAddressToMenuButton)).isDisplayed()) {
+			findElement(parentDriver,By.xpath(objAddressPopupInput)).sendKeys(address);
+			findElement(parentDriver,By.xpath(objAddressToMenuButton)).click();
+			report.nodeTestPass("Provide Address in the Address Pop-Up Modal");
+		}
 	}
 	
 }

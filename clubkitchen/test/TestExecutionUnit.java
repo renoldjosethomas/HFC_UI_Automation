@@ -71,7 +71,7 @@ public class TestExecutionUnit {
 		}
 		
 		report.endExtentReports();
-//		mail.sendEmailReport();
+		mail.sendEmailReport();
 		System.out.println("--------- UI AUTOMATION SUITE SUCCESSFULLY RUN ---------");
 	}
 

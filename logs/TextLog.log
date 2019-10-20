@@ -1,16 +1,16 @@
-2019-10-20 16:36:37,534 [main] INFO clubkitchen.utils.LogUtility -   SPRINT:  CS 2.7 S1
-2019-10-20 16:36:37,540 [main] INFO clubkitchen.utils.LogUtility -   TITLE:  Regression Test Suite
-2019-10-20 16:36:37,541 [main] INFO clubkitchen.utils.LogUtility -   MODULE:  Club Kitchen General
-2019-10-20 16:36:37,542 [main] INFO clubkitchen.utils.LogUtility -   ASSIGNEE:  Renold Jose Thomas
-2019-10-20 16:36:37,544 [main] INFO clubkitchen.utils.LogUtility -   DATE:  22-NOV-19
-2019-10-20 16:36:37,544 [main] INFO clubkitchen.utils.LogUtility -   LINKED TO TESTSUITE ID:  TEST SUITE HFC - 01
-2019-10-20 16:36:37,545 [main] INFO clubkitchen.utils.LogUtility -   ENVIRONMENT:  QA Environment
-2019-10-20 16:37:12,014 [main] INFO clubkitchen.utils.LogUtility - Executing Test -  TC001 - Verify add an item to cart workflow
-2019-10-20 16:37:26,905 [main] INFO clubkitchen.utils.LogUtility - Action - Navigate to Food Menu Page
-2019-10-20 16:37:30,715 [main] INFO clubkitchen.utils.LogUtility - Action - Provide Address in the Address Pop-Up Modal
-2019-10-20 16:37:32,510 [main] ERROR clubkitchen.utils.LogUtility - FAILED:  TC001 - Verify add an item to cart workflow   -   null
-2019-10-20 16:37:46,789 [main] INFO clubkitchen.utils.LogUtility - Action - Logout
-2019-10-20 16:38:08,017 [main] INFO clubkitchen.utils.LogUtility - Action - Login
-2019-10-20 16:38:08,018 [main] INFO clubkitchen.utils.LogUtility - Executing Test -  TC002 - Verify adding a wrong item to cart workflow
-2019-10-20 16:38:12,412 [main] INFO clubkitchen.utils.LogUtility - Action - Navigate to Food Menu Page
-2019-10-20 16:38:34,188 [main] ERROR clubkitchen.utils.LogUtility - FAILED:  TC002 - Verify adding a wrong item to cart workflow   -   null
+2019-10-20 16:23:40,962 [main] INFO clubkitchen.utils.LogUtility -   SPRINT:  CS 2.7 S1
+2019-10-20 16:23:40,966 [main] INFO clubkitchen.utils.LogUtility -   TITLE:  Regression Test Suite
+2019-10-20 16:23:40,966 [main] INFO clubkitchen.utils.LogUtility -   MODULE:  Club Kitchen General
+2019-10-20 16:23:40,967 [main] INFO clubkitchen.utils.LogUtility -   ASSIGNEE:  Renold Jose Thomas
+2019-10-20 16:23:40,968 [main] INFO clubkitchen.utils.LogUtility -   DATE:  22-NOV-19
+2019-10-20 16:23:40,969 [main] INFO clubkitchen.utils.LogUtility -   LINKED TO TESTSUITE ID:  TEST SUITE HFC - 01
+2019-10-20 16:23:40,969 [main] INFO clubkitchen.utils.LogUtility -   ENVIRONMENT:  QA Environment
+2019-10-20 16:24:04,148 [main] INFO clubkitchen.utils.LogUtility - Executing Test -  TC001 - Verify add an item to cart workflow
+2019-10-20 16:24:17,563 [main] INFO clubkitchen.utils.LogUtility - Action - Navigate to Food Menu Page
+2019-10-20 16:24:22,962 [main] INFO clubkitchen.utils.LogUtility - Action - Provide Address in the Address Pop-Up Modal
+2019-10-20 16:24:43,600 [main] INFO clubkitchen.utils.LogUtility - Action - Add Item To Cart
+2019-10-20 16:24:49,953 [main] INFO clubkitchen.utils.LogUtility - Action - Logout
+2019-10-20 16:25:08,620 [main] INFO clubkitchen.utils.LogUtility - Action - Login
+2019-10-20 16:25:08,621 [main] INFO clubkitchen.utils.LogUtility - Executing Test -  TC002 - Verify adding a wrong item to cart workflow
+2019-10-20 16:25:12,204 [main] INFO clubkitchen.utils.LogUtility - Action - Navigate to Food Menu Page
+2019-10-20 16:25:40,366 [main] ERROR clubkitchen.utils.LogUtility - FAILED:  TC002 - Verify adding a wrong item to cart workflow   -   null
